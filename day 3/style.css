@@ -1,8 +1,10 @@
-*{
+/* *{
     padding: 0px;
     margin: 0px;
-}
+} */
 
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+/* 
 .red{
     background-color: red;
     margin: 10px;
@@ -12,4 +14,68 @@
     background-color: green;
     margin: 10px;
     padding: 5px;
+}
+
+.ab{
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+
+    
+} */
+
+/* .box{
+    height: 80vh;
+    width: 100%;
+    opacity: 2;
+    background-color: black;
+} */
+ 
+*{
+padding: 0;
+margin: 0;
+
+}
+.box{
+height: 250px;
+width: 80%;
+border: 2px solid black;
+margin: 25px;
+padding: 3px;
+
+
+
+
+
+}
+.box1{
+    background-color: rgb(3, 85, 91);
+    position: sticky;
+    top: 0px;
+    margin: 5px;
+    padding: 10px;
+    left: 116px;
+    
+    
+}
+.box2{
+    background-color: rgb(5, 119, 119);
+    left: 116px;
+    
+}
+.box3{
+    background-color: #0db09b;
+    left: 116px;
+    
+   
+}
+.box4{
+    background-color: aquamarine;
+    left: 116px;
+}
+.parent{
+    margin: 30px;
+    pading: 5px;
+    border: 2px solid purple;
 }
