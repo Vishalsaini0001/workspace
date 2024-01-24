@@ -87,6 +87,14 @@ h5 {
     color: #222222;
   font-family: "Poppins", sans-serif;
   font-weight: bold;
+}.btn button:hover{
+  opacity: 50%;
+  cursor: pointer;
+  transition: 0.75s;
+  color: #00b6d1;
+  background-color:transparent ;
+  border: 2px solid #00b6d1 ;
+  font-weight: bolder;
 }
 .subs{
     margin-top: 60px;
